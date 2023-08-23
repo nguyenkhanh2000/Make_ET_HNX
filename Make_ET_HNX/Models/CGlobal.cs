@@ -93,5 +93,102 @@ namespace Make_ET_HNX.Models
             public string TAG_1341; //{ get; set;
             public string TAG_1351; //{get; set;
         }
+        public struct FULL_ROW_QUOTE
+        {
+            public string Symbol { get; set; }
+            public string BasicPrice { get; set; }
+            public string CeilingPrice { get; set; }
+            public string FloorPrice { get; set; }
+            public string MidPx { get; set; }
+            public string BuyForeignQtty { get; set; }
+            public string SellForeignQtty { get; set; }
+            public string RemainForeignQtty { get; set; }
+        }
+        public struct FULL_ROW_QUOTE_HNX
+        {
+            public string f0; //{get; set; }  
+            public string f1; //{get; set; }  
+            public string f2; //{get; set; }  
+            public string f3; //{get; set; } 
+            public string f4; //{get; set; } 
+            public string f5; //{get; set; } 
+            public string f6; //{get; set; }  
+            public string f7; //{get; set; }  
+            public string f8; //{get; set; }  
+
+            public string f9; //{get; set; }  
+            public string f10; //{get; set; }  
+            public string f11; //{get; set; } 
+            public string f12; //{get; set; } 
+            public string f13; //{get; set; } 
+            public string f14; //{get; set; }  
+            public string f15; //{get; set; }  
+
+
+            public string f16; //{get; set; }  
+            public string f17; //{get; set; }  
+            public string f18; //{get; set; } 
+            public string f19; //{get; set; } 
+            public string f20; //{get; set; } 
+            public string f21; //{get; set; }  
+            public string f22; //{get; set; }  
+            public string f23; //{get; set; }  
+
+            public string f24; //{get; set; }  
+            public string f25; //{get; set; }  
+            public string f26; //{get; set; } 
+            public string f27; //{get; set; } 
+            public string f28; //{get; set; } 
+            public string f29; //{get; set; }  
+            public string f30; //{get; set; }  
+            public string f31; //{get; set; }
+        }
+        public struct FULL_ROW_QUOTE_ET
+        {
+            public string Symbol; //{get; set; }  
+            public string BasicPrice; //{get; set; }  
+            public string CeilingPrice; //{get; set; } 
+            public string FloorPrice; //{get; set; } 
+            public string MidPx; //{get; set; } 
+            public string BuyForeignQtty; //{get; set; }  
+            public string SellForeignQtty; //{get; set; }  
+            public string RemainForeignQtty; //{get; set; }  
+
+            public string BestBidPrice1; //{get; set; }  
+            public string BestBidQtty1; //{get; set; }  
+            public string BestBidPrice2; //{get; set; } 
+            public string BestBidQtty2; //{get; set; } 
+            public string BestBidPrice3; //{get; set; } 
+            public string BestBidQtty3; //{get; set; }  
+            public string BestBidQtty4; //{get; set; }  
+            public string BestBidQtty5; //{get; set; }  
+
+            public string BestBidQtty6; //{get; set; }  
+            public string BestBidQtty7; //{get; set; }  
+            public string BestBidQtty8; //{get; set; } 
+            public string BestBidQtty9; //{get; set; } 
+            public string BestBidQtty10; //{get; set; } 
+            public string MatchPrice; //{get; set; }  
+            public string MatchQtty; //{get; set; }  
+            public string BestOfferPrice1; //{get; set; }  
+
+            public string BestOfferQtty1; //{get; set; }  
+            public string BestOfferPrice2; //{get; set; }  
+            public string BestOfferQtty2; //{get; set; } 
+            public string BestOfferPrice3; //{get; set; } 
+            public string BestOfferQtty3; //{get; set; } 
+            public string BestOfferQtty4; //{get; set; }  
+            public string BestOfferQtty5; //{get; set; }  
+            public string BestOfferQtty6; //{get; set; }  
+
+            public string BestOfferQtty7; //{get; set; }  
+            public string BestOfferQtty8; //{get; set; }  
+            public string BestOfferQtty9; //{get; set; } 
+            public string BestOfferQtty10; //{get; set; } 
+            public string NM_TotalTradedQtty; //{get; set; } 
+            public string OpenPrice; //{get; set; }  
+            public string HighestPice; //{get; set; }  
+            public string LowestPrice; //{get; set; }  
+        }
     }
 }
