@@ -9,6 +9,9 @@ namespace Make_ET_HNX.Read_Data
 {
     public class Queue_HNX
     {
+        /// <summary>
+        ///
+        /// </summary>
         public string[] arrmessage;
         //public CGlobal.FULL_ROW_QUOTE_ET make_ET; 
         public CGlobal.FULL_ROW_QUOTE_HNX[] make_ET_HNX;
